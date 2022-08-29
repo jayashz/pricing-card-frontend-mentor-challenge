@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-family: 'karla';
+    font-size: 16px;
+    font-weight: 400;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    
+}
+#main-container{
+    width:600px;
+    height:400px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 200px 400px;
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+#top-container{
+    height: 45%;
+    width: 100%;
+    padding: 25px;
+
+}
+#bottom-container{
+    color: white;
+}
+
+#bottom-container{
+    height: 55%;
+    width: 100%;
+    
+}
+#bottom-left{
+    height: 100%;
+    width: 50%;
+    padding: 25px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #2eafae;
+}
+#bottom-left h4{
+    margin-bottom: 16px;
+}
+#bottom-left p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+#bottom-right{
+    height:100%;
+    width: 50%;
+    padding: 25px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #50bebc;
+}
+
+/*Designing the top container elements*/
+.heading{
+    margin-bottom: 15px;
+    color: #4eb4af;
+}
+.promise{
+    margin-bottom: 10px;
+    color: #cfde71;
+}
+.description{
+    color: #b0b4bd;
+}
+.price{
+    font-weight: 700;
+    display: inline-block;
+    font-size: 1.4rem;
+}
+.time{
+    display: inline-block;
+    position: relative;
+    top: -2.5px;
+    font-size: 0.8rem;
+    opacity: .7;
+    margin-left: 5px;
+}
+
+button{
+    color: white;
+    background-color: #cfde71;
+    border-radius: 5px;
+    width: 95%;
+    height: 45px;
+    border: none;
+    font-weight: 700;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #899c27;
+    transform: scale(1.03);
+}
+/*Styling the bottom right container*/
+ul{
+    list-style: none;
+    font-size: 0.8rem;
+    opacity: .8;
+    line-height: 18px;
+
+}
+#bottom-right h4{
+    margin-bottom: 16px;
+}
